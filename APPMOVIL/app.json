@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Evaluacion 3",
+    "slug": "evaluacion3-adriana-aguilar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.adrianaaguilar.evaluacion3",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F172A"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.adrianaaguilar.evaluacion3"
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0F172A"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f1f4aa20-2ddf-4eba-b149-d4682a84a509"
+      }
+    }
+  }
+}
